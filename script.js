@@ -6,9 +6,9 @@ function makeid(l) {
 	for(let i = 1; i <= l; i++){
 		result += listChar.charAt(
 			Math.floor(
-				(Math.random() * listChar.length);
+				Math.random() * listChar.length
 			)
-		)
+		);
 	}
 
 	return result;
